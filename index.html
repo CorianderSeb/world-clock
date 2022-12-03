@@ -13,14 +13,14 @@
     <div class="container">
         <h1>World Clock</h1>
       <div>
-        <select>
+        <select id="city">
             <option value="">Select a City...</option>
-            <option value="">San Diego</option>
-            <option value="">Dallas</option>
-            <option value="">Dublin</option>
-            <option value="">Seoul</option>
+            <option value="America/Los_Angeles">San Diego</option>
+            <option value="Pacific/Auckland">Auckland</option>
+            <option value="Europe/London">London</option>
+            <option value="Asia/Seoul">Seoul</option>
         </select>
-      </div>
+      </div id="cities">
         <div class="city" id="dublin">
             <div>
         <h2>Dublin</h2>
@@ -34,21 +34,6 @@
         <div class="date"></div>
         </div> 
         <div class="time"></div>
-        </div>
-        <div class="city" id="san-diego">
-            <div>
-        <h2>San Diego</h2>
-        <div class="date">December 25th, 2023</div>
-        </div> 
-        <div class="time">1:35:13 <small>PM</small></div>
-        </div>
-        <div class="city" id="seoul">
-            <div>
-        <h2>Seoul</h2>
-        <div class="date">December 25th, 2023</div>
-        </div> 
-        <div class="time">1:35:13 <small>PM</small></div>
-        </div>
     </div>
     <footer>Coded by <strong>Sebastian Seithel</strong> and <a href="https://github.com/CorianderSeb/world-clock" target="_blank">open sourced on GitHub</a></footer>
 <script src="./index.js"></script>
