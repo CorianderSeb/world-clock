@@ -1,41 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Clock by Sebastian Seithel</title>
-    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="./style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.39/moment-timezone-with-data-1970-2030.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.39/moment-timezone-with-data-1970-2030.min.js"></script>
 </head>
+
 <body>
     <div class="container">
         <h1>World Clock</h1>
-      <div>
-        <select id="city">
-            <option value="">Select a City...</option>
-            <option value="America/Los_Angeles">San Diego</option>
-            <option value="Pacific/Auckland">Auckland</option>
-            <option value="Europe/London">London</option>
-            <option value="Asia/Seoul">Seoul</option>
-        </select>
-      </div id="cities">
-        <div class="city" id="dublin">
-            <div>
-        <h2>Dublin</h2>
-        <div class="date"></div>
-        </div> 
-        <div class="time"></div>
+        <div>
+            <select id="city">
+                <option value="">Select a City...</option>
+                <option value="America/Los_Angeles">Los Angeles</option>
+                <option value="Pacific/Auckland">Auckland</option>
+                <option value="Europe/London">London</option>
+                <option value="Asia/Seoul">Seoul</option>
+            </select>
         </div>
-        <div class="city" id="asheville">
-            <div>
-        <h2>Asheville US</h2>
-        <div class="date"></div>
-        </div> 
-        <div class="time"></div>
-    </div>
-    <footer>Coded by <strong>Sebastian Seithel</strong> and <a href="https://github.com/CorianderSeb/world-clock" target="_blank">open sourced on GitHub</a></footer>
-<script src="./index.js"></script>
+        <div id="cities">
+            <div class="city" id="dublin">
+                <div>
+                    <h2>Dublin</h2>
+                    <div class="date"></div>
+                </div>
+                <div class="time"></div>
+            </div>
+            <div class="city" id="asheville">
+                <div>
+                    <h2>Asheville</h2>
+                    <div class="date"></div>
+                </div>
+                <div class="time"></div>
+            </div>
+        </div>
+        <footer>Coded by <strong>Sebastian Seithel</strong> and <a href="https://github.com/CorianderSeb/world-clock"
+                target="_blank">open sourced on GitHub</a></footer>
+        <script src="./index.js"></script>
 </body>
+
 </html>
